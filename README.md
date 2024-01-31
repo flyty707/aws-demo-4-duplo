@@ -2,7 +2,7 @@
 
 # Terraform AWS/EKS Kubernetes Cluster with Web Application
 
-This Terraform project deploys a Kubernetes cluster with a web application on either AWS with EKS or GCP with GKE.
+This Terraform project deploys a Kubernetes cluster with a web application on either AWS with EKS.
 
 ## Configuration (main.tf)
 
