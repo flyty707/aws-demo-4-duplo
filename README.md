@@ -1,10 +1,10 @@
 # AWS Artifacts for Duplocloud demo
 
-# Terraform AWS/EKS or GCP/GKE Kubernetes Cluster with Web Application
+# Terraform AWS/EKS Kubernetes Cluster with Web Application
 
 This Terraform project deploys a Kubernetes cluster with a web application on either AWS with EKS or GCP with GKE.
 
-## AWS/EKS Configuration (main.tf)
+## Configuration (main.tf)
 
 ### Placeholder Variables:
 
@@ -16,17 +16,6 @@ This Terraform project deploys a Kubernetes cluster with a web application on ei
 - `desired_capacity`, `min_capacity`, `max_capacity`: Node group capacity configuration.
 - `instance_type`: The EC2 instance type for the EKS nodes.
 - `key_name`: The name of your EC2 key pair.
-
-## GCP/GKE Configuration (main.tf)
-
-### Placeholder Variables:
-
-- `project`: The GCP project ID.
-- `region`: The GCP region where the GKE cluster will be deployed.
-- `name`: The name of the GKE cluster.
-- `initial_node_count`: The initial number of nodes in the GKE cluster.
-- `machine_type`: The machine type for the GKE nodes.
-- `webapp_container_image`: The container image for the web application.
 
 ## How to Identify Placeholder Variables:
 
