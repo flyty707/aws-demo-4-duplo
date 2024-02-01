@@ -29,7 +29,7 @@ provider "aws" {
 resource "module" "eks" {
   source          = "terraform-aws-modules/eks/aws"
   cluster_name    = "**my-eks-cluster**"
-  subnets         = ["subnet-xxxxxxxxxxxxxxxxx", "subnet-yyyyyyyyyyyyyyyyy"]
+  subnet_ids         = ["subnet-xxxxxxxxxxxxxxxxx", "subnet-yyyyyyyyyyyyyyyyy"]
   vpc_id          = "**vpc-xxxxxxxxxxxxxxxxx**"
   cluster_version = "**1.21**"
 
