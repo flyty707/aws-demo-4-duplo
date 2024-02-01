@@ -5,7 +5,7 @@ provider "aws" {
 module "eks" {
   source          = "terraform-aws-modules/eks/aws"
   cluster_name    = "my-eks-cluster"
-  subnets         = ["subnet-xxxxxxxxxxxxxxxxx", "subnet-yyyyyyyyyyyyyyyyy"]  # Replace with your subnet IDs
+  subnet_ids        = ["subnet-xxxxxxxxxxxxxxxxx", "subnet-yyyyyyyyyyyyyyyyy"]  # Replace with your subnet IDs
   vpc_id          = "vpc-xxxxxxxxxxxxxxxxx"  # Replace with your VPC ID
   cluster_version = "1.21"  # Specify the desired Kubernetes version
 
