@@ -9,7 +9,7 @@ module "eks" {
   vpc_id          = "vpc-xxxxxxxxxxxxxxxxx"  # Replace with your VPC ID
   cluster_version = "1.21"  # Specify the desired Kubernetes version
 
-  node_groups = {
+  eks_managed_node_groups = {
     eks_nodes = {
       desired_capacity = 2
       max_capacity     = 3
@@ -46,7 +46,7 @@ resource "kubernetes_deployment" "webapp" {
       spec {
         containers {
           name  = "webapp"
-          image = "<your-webapp-container-image>"
+          image = "nginx:stable"
         }
       }
     }
