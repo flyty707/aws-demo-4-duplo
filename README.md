@@ -1,6 +1,7 @@
 ## Terraform AWS/EKS Kubernetes Cluster with Web Application
 
 This Terraform project deploys a Kubernetes cluster with a web application on either AWS with EKS.
+*** Note: Load balancer need to be configured post cluster build ***
 
 ## Configuration (main.tf)
 
