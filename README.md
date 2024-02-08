@@ -1,6 +1,4 @@
-# AWS Artifacts to build 2-node EKS cluster with a load balancer (load balancer needs configure post cluster build)
-
-# Terraform AWS/EKS Kubernetes Cluster with Web Application
+## Terraform AWS/EKS Kubernetes Cluster with Web Application
 
 This Terraform project deploys a Kubernetes cluster with a web application on either AWS with EKS.
 
