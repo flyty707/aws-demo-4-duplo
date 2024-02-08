@@ -1,4 +1,4 @@
-# AWS Artifacts for Duplocloud demo
+# AWS Artifacts to build 2-node EKS cluster with a load balancer (load balancer needs configure post cluster build)
 
 # Terraform AWS/EKS Kubernetes Cluster with Web Application
 
